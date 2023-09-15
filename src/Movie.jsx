@@ -34,7 +34,7 @@ export default function Movie() {
          return ((movieid==movieId) ?
           <div>
             <h2>
-            <img src={`https://image.tmdb.org/t/p/w500${backdrop_path}`} alt={trailer} className='block'/>
+            <img src={`https://image.tmdb.org/t/p/w500${movie.backdrop_path}`} alt='block' className='block'/>
 
                 {movie.title}
                 {movie.release_date}
